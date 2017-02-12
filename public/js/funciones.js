@@ -76,4 +76,11 @@ $(document).ready(function() {
         	$( "#date-inicio" ).datepicker( "option", "maxDate", selectedDate );
       	}
     });
+
+    function eliminar(url) {
+    	if (confirm('¿Deseas eliminar el registro?')) {
+    		window.location=url;
+    	}
+    }
+
 });

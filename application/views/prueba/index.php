@@ -72,7 +72,7 @@
 								<td><?php echo $dato->area?></td>
 								<td>
 									<a href="<?php echo base_url()?>prueba/edit/<?php echo $dato->id_panel?>" class="link-icon" data-toggle="tooltip" data-placement="left" title="Editar"><span class="glyphicon glyphicon-pencil"></span></a>
-									<a href="<?php echo base_url()?>prueba/delete/<?php echo $dato->id_panel?>" class="link-icon" data-toggle="tooltip" data-placement="left" title="Mantención"><span class="glyphicon glyphicon-wrench"></span></a>
+									<a href="javascript:void(0);" onclick="eliminar('<?php echo base_url()?>prueba/delete/<?php echo $dato->id_panel?>');" class="link-icon" data-toggle="tooltip" data-placement="left" title="Mantención"><span class="glyphicon glyphicon-wrench"></span></a>
 									<a href="#" class="link-icon" data-toggle="tooltip" data-placement="left" title="Reporte"><span class="glyphicon glyphicon-list-alt"></span></a>
 									<a href="#" class="link-icon" data-toggle="tooltip" data-placement="left" title="Imprimir"><span class="glyphicon glyphicon-print"></span></a>
 								</td>
