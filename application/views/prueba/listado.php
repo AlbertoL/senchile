@@ -33,7 +33,7 @@
   			<h1>Panel Administración <small>Equipos</small></h1>
 		</div>
 		<div class="panel panel-primary">
-  			<div class="panel-heading">Panel Equipos</div>
+  			<div class="panel-heading">Listado Equipos (<?php echo $cuantos?> registros)</div>
   			<?php
   				if ($this->session->flashdata('mensaje')!='') {
   			?>	
@@ -48,7 +48,7 @@
     			<br>
  			</div>
   			<div class="table-responsive">
-	  			<table class="table table-striped table-hover text-center">
+	  			<table class="table table-bordered table-sprited table-hover text-center">
 		  			<thead>
 						<tr>
 							<th class="text-center">#</th>
@@ -71,8 +71,8 @@
 								<td><?php echo $dato->nombre_equipo?></td>
 								<td><?php echo $dato->area?></td>
 								<td>
-									<a href="<?php echo base_url()?>prueba/edit/<?php echo $dato->id_panel?>" class="link-icon" data-toggle="tooltip" data-placement="left" title="Editar"><span class="glyphicon glyphicon-pencil"></span></a>
-									<a href="<?php echo base_url()?>prueba/delete/<?php echo $dato->id_panel?>" onclick="return confirm('¿Deseas eliminar el registro?');" class="link-icon" data-toggle="tooltip" data-placement="left" title="Mantención"><span class="glyphicon glyphicon-wrench"></span></a>
+									<a href="<?php echo base_url()?>prueba/edit/<?php echo $dato->id_panel?>/<?php echo $pagina?>" class="link-icon" data-toggle="tooltip" data-placement="left" title="Editar"><span class="glyphicon glyphicon-pencil"></span></a>
+									<a href="<?php echo base_url()?>prueba/delete/<?php echo $dato->id_panel?>/<?php echo $pagina?>" onclick="return confirm('¿Deseas eliminar el registro?');" class="link-icon" data-toggle="tooltip" data-placement="left" title="Mantención"><span class="glyphicon glyphicon-wrench"></span></a>
 									<a href="#" class="link-icon" data-toggle="tooltip" data-placement="left" title="Reporte"><span class="glyphicon glyphicon-list-alt"></span></a>
 									<a href="#" class="link-icon" data-toggle="tooltip" data-placement="left" title="Imprimir"><span class="glyphicon glyphicon-print"></span></a>
 								</td>
@@ -86,6 +86,7 @@
 						
 					</tbody>
 	   			</table>
+	   			<p class="pull-right"><?php echo $this->pagination->create_links()?></p>
    			</div>
 		</div>
 	</div>	

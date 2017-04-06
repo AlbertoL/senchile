@@ -11,6 +11,32 @@ class Prueba_model extends CI_Model
 		parent::__construct();
 	}
 	// Métodos de consulta
+	public function getTodosPaginacion($pagina,$porpagina,$quehago)
+	{
+		switch ($quehago) {
+			case 'limit':
+				$query = $this->db
+					->select("id_panel,fecha,num_golpe,nombre_equipo,area")
+					->from('panel')
+					->limit($porpagina,$pagina)
+					->order_by("id_panel","desc")
+					->get();
+				return $query->result();
+			break;
+
+			case 'cuantos':
+				$query = $this->db
+					->select("id_panel,fecha,num_golpe,nombre_equipo,area")
+					->from('panel')
+					->count_all_results();
+				return $query;
+			break;
+			
+			default:
+				break;
+		}
+
+	}
 	public function getTodos()
 	{
 		$query = $this->db
@@ -48,9 +74,9 @@ class Prueba_model extends CI_Model
 		$this->db->update('panel',$data);
 	}
 
-	public function delete($data=array())
+	public function delete($id)
 	{
 		$this->db->where('id_panel',$id);
-		$this->db->delete('panel',$data);
+		$this->db->delete('panel');
 	}
 }

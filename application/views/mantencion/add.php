@@ -1,166 +1,199 @@
 <div class="container cuerpo">
 	<div class="">
-		<h2 class="text-center"><span class="glyphicon glyphicon-wrench" aria-hidden="true"> </span><strong> Datos Equipos</strong></h2>
+		<h2 class="text-center"><span class="glyphicon glyphicon-wrench" aria-hidden="true"> </span><strong> Peritaje De Motores</strong></h2>
 	</div>
 	<form action="#">
-			<!--Inicio Formulario DATOS EQUIPO -->
+			<!--Inicio REGISTRO  MOTORES -->
 		<div class="row">
 			<div class="col-xs-12" data-example-id="button-group-nesting">
 				<div class="row">
-					<div><h4 class="page-header">Datos Equipo</h4></div>
+					<div><h3 class="page-header"><strong><em>Registro Motores</em></strong></h3></div>
 					<div class="form-group col-sm-3">
-	    				<label for="idmail">TAG</label>
-	    				<input type="text" class="form-control" id="idmail" placeholder="TAG">
+	    				<label for="idmail">OT</label>
+	    				<input type="text" class="form-control" id="idmail" placeholder="Orden de Trabajo">
 	  				</div>
 	  				<div class="form-group col-sm-3">
-	    				<label for="golpe">N° de Golpe</label>
-	    				<input type="text" class="form-control" id="golpe" placeholder="N° de Golpe">
+	    				<label for="golpe">OM</label>
+	    				<input type="text" class="form-control" id="golpe" placeholder="Orden de Mantención">
 	  				</div>
 	  				<div class="form-group col-sm-3">
-	    				<label for="name-equipo">Nombre de Equipo</label>
-	    				<input type="text" class="form-control" id="name-equipo" placeholder="Nombre Equipo">
+	    				<label for="name-equipo">Fecha</label>
+	    				<input type="text" class="form-control" id="name-equipo" placeholder="Fecha">
 	  				</div>
 	  				<div class="form-group col-sm-3">
-	    				<label for="name-area">Área</label>
-	    				<select name="area" class="form-control" id="name-area">
-	    					<option value="1">Fibra</option>
-	    				</select>
-	  				</div>
-				</div>
-				<div id="ver" class="row collapse">
-					<div class="form-group col-sm-3">
-	    				<label for="ubicación">Ubicación Técnica</label>
-	    				<input type="text" name="ubicacion" class="form-control" id="ubicacion" placeholder="Ubicación">
-	  				</div>
-	  				<div class="form-group col-sm-3">
-	    				<label for="ubicación">Código SAP</label>
-	    				<input type="text" name="sap" class="form-control" id="sap" placeholder="SAP">
+	    				<label for="ubicación">Desarmado Por :</label>
+	    				<input type="text" name="ubicacion" class="form-control" id="ubicacion" placeholder="Nombre">
 	  				</div>
 				</div>
 				<div class="row">
-					<div class="col-xs-12">
-						<button type="button" id="btn-down-one" class="btn btn-warning btn-xs" role="button" data-toggle="collapse" data-target="#ver" aria-expanded="false" aria-controls="ver">
-							<span id="icon-down-one" class="glyphicon glyphicon-chevron-down"></span>
-						</button>
-					</div>
+	  				<div class="form-group col-sm-3">
+	    				<label for="ubicación">Supervisor</label>
+	    				<input type="text" name="sap" class="form-control" id="sap" placeholder="Nombre">
+	  				</div>
 				</div>
 			</div>
 		</div>
-			<!-- Fin DATOS EQUIPOS -->
+			<!-- Fin REGISTRO MOTORES -->
 
-			<!-- INICIO DATOS DE PLACA -->
+			<!-- INICIO MEDICIONES MECÁNICAS -->
 		<div class="row">
-			<div><h4 class="page-header">Datos de Placa</h4></div>
-			<div class="col-sm-4">
-				<div class="form-group">
-    				<label for="marca">Marca</label>
-    				<select name="marca" class="form-control" id="marca">
-    					<option value="1">Fibra</option>
-    				</select>
-  				</div>
-	  			<div class="form-group">
-	    			<label for="modelo">Modelo</label>
-	    			<input type="text" class="form-control" id="modelo" placeholder="Modelo">
-	  			</div>
-	  			<div class="form-group">
-	    			<label for="montaje">Montaje</label>
-	    			<select name="montaje" class="form-control" id="montaje">
-	    				<option value="1">B5</option>
-	    			</select>
-	  			</div>
-	  			<div class="form-group">
-	    			<label for="clase">Clase AISL</label>
-	    			<select name="clase" class="form-control" id="clase">
-	    				<option value="1">CLF</option>
-	    			</select>
-  				</div>
-	  			<div class="form-group">
-	    			<label for="frecuencia">Frecuencia</label>
-	    			<select name="frecuencia" class="form-control" id="frecuencia">
-	    				<option value="1">50 HZ</option>
-	    			</select>
-	  			</div>
-	  			<div class="form-group">
-	    			<label for="conexion">Conexión</label>
-	    			<select name="conexion" class="form-control" id="conexion">
-	    				<option value="1">Estrella</option>
-	    			</select>
-	  			</div>
-	  			<div class="form-group">
-	    			<label for="potencia">Potencia</label>
-	    			<input type="text" class="form-control" id="potencia" placeholder="Potencia">
-	  			</div>
+			<div>
+				<h3 class="page-header"><strong><em>Mediciones Mecánicas</em></strong></h3>
 			</div>
-			<div class="col-sm-4">
-				<div class="form-group">
-	    			<label for="voltaje">Voltaje</label>
-	    			<select name="voltaje" class="form-control" id="voltaje">
-	    				<option value="1">690</option>
-	    			</select>
-	  			</div>
-	  			<div class="form-group">
-	    			<label for="corriente">Corriente</label>
-	    			<input type="text" class="form-control" id="corriente" placeholder="corriente">
-	  			</div>
-	  			<div class="form-group">
-	    			<label for="pesomotor">Peso Motor</label>
-	    			<input type="text" class="form-control" id="potencia" placeholder="Peso Motor">
-	  			</div>
-	  			<div class="form-group">
-	    			<label for="ip">IP</label>
-	    			<input type="text" class="form-control" id="ip" placeholder="IP">
-	  			</div>
-	  			<div class="form-group">
-	    			<label for="roda">ROD LADO A</label>
-	    			<input type="text" class="form-control" id="roda" placeholder="ROD LADO A">
-	  			</div>
-	  			<div class="form-group">
-	    			<label for="rodb">ROD LADO B</label>
-	    			<input type="text" class="form-control" id="rodb" placeholder="ROD LADO B">
-	  			</div>
-	  			<div class="form-group">
-	    			<label for="norma">Norma</label>
-	    			<select name="norma" class="form-control" id="norma">
-	    				<option value="1">IEC</option>
-	    			</select>
-	  			</div>
-	  			
+			
+		</div>
+		<!-- INICIO MEDICIONES MECÁNICAS -->
+		<div class="row">
+				<h4>LADO A</h4>
+			<div class="col-sm-6 table-responsive">
+				<h4>MEDICIONES CAJA</h4>
+				<table class="table table-bordered">
+					<thead>
+						<tr>
+							<th>#</th>
+							<th>1</th>
+							<th>2</th>
+							<th>3</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><strong>A</strong></td>
+							<td>52, 01</td>
+							<td>01</td>
+							<td>02</td>
+						</tr>
+						<tr>
+							<td><strong>B</strong></td>
+							<td>52, 01</td>
+							<td>01</td>
+							<td>02</td>
+						</tr>
+						<tr>
+							<td><strong>C</strong></td>
+							<td>52, 01</td>
+							<td>01</td>
+							<td>02</td>
+						</tr>
+					</tbody>
+					
+				</table>
+				
 			</div>
-			<div class="col-sm-4">
-	  			<div class="form-group">
-	    			<label for="tmotor">Tipo Motor</label>
-	    			<input type="text" name="tmotor" class="form-control" id="tmotor" placeholder="Tipo Motor">
-	  			</div>
-	  			<div class="form-group">
-	    			<label for="frame">Frame</label>
-	    			<input type="text" class="form-control" id="frame" placeholder="Frame">
-	  			</div>
-	  			<div class="form-group">
-	    			<label for="rpm">RPM</label>
-	    			<input type="text" name="rpm" class="form-control" id="rpm" placeholder="RPM">
-	  			</div>
-	  			<div class="form-group">
-	    			<label for="rotor">Tipo Rotor</label>
-	    			<input type="text" name="rotor" class="form-control" id="rotor" placeholder="Tipo Rotor">
-	  			</div>
-	  			<div class="form-group">
-	    			<label for="">Fact. Pot.</label>
-	    			<input type="text" name="fact" class="form-control" id="fact" placeholder="Fact Pot">
-	  			</div>
-	  			<div id="mostrar" class="form-group collapse">
-	    			<label for="">Procedencia</label>
-	    			<input type="text" name="procedencia" class="form-control" id="procedencia" placeholder="Procedencia">
-	  			</div>
+			<div class="col-sm-6 table-responsive">
+				<h4>MEDICIONES EJE</h4>
+				<table class="table table-bordered">
+					<thead>
+						<tr>
+							<th>#</th>
+							<th>1</th>
+							<th>2</th>
+							<th>3</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><strong>A</strong></td>
+							<td>52, 01</td>
+							<td>01</td>
+							<td>02</td>
+						</tr>
+						<tr>
+							<td><strong>B</strong></td>
+							<td>52, 01</td>
+							<td>01</td>
+							<td>02</td>
+						</tr>
+						<tr>
+							<td><strong>C</strong></td>
+							<td>52, 01</td>
+							<td>01</td>
+							<td>02</td>
+						</tr>
+					</tbody>
+					
+				</table>
+				
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-xs-12">
-				<button type="button" id="btn-down-two" class="btn btn-warning btn-xs" role="button" data-toggle="collapse" data-target="#mostrar" aria-expanded="false" aria-controls="mostrar">
-						<span id="icon-down-two" class="glyphicon glyphicon-chevron-down"></span>
-				</button>
+				<h4>LADO V</h4>
+			<div class="col-sm-6 table-responsive">
+				<h4>MEDICIONES CAJA</h4>
+				<table class="table table-bordered">
+					<thead>
+						<tr>
+							<th>#</th>
+							<th>1</th>
+							<th>2</th>
+							<th>3</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><strong>A</strong></td>
+							<td>52, 01</td>
+							<td>01</td>
+							<td>02</td>
+						</tr>
+						<tr>
+							<td><strong>B</strong></td>
+							<td>52, 01</td>
+							<td>01</td>
+							<td>02</td>
+						</tr>
+						<tr>
+							<td><strong>C</strong></td>
+							<td>52, 01</td>
+							<td>01</td>
+							<td>02</td>
+						</tr>
+					</tbody>
+					
+				</table>
+				
+			</div>
+			<div class="col-sm-6 table-responsive">
+				<h4>MEDICIONES EJE</h4>
+				<table class="table table-bordered">
+					<thead>
+						<tr>
+							<th>#</th>
+							<th>1</th>
+							<th>2</th>
+							<th>3</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td><strong>A</strong></td>
+							<td>52, 01</td>
+							<td>01</td>
+							<td>02</td>
+						</tr>
+						<tr>
+							<td><strong>B</strong></td>
+							<td>52, 01</td>
+							<td>01</td>
+							<td>02</td>
+						</tr>
+						<tr>
+							<td><strong>C</strong></td>
+							<td>52, 01</td>
+							<td>01</td>
+							<td>02</td>
+						</tr>
+					</tbody>
+					
+				</table>
+				
 			</div>
 		</div>
-		<!-- FIN DATOS DE PLACA -->
+
+
+
+
+		<!-- FIN MEDICIONES MECÁNICAS -->
 		<!-- INICIO DATOS ADICIONALES -->
 		<div class="row">
 			<div><h4 class="page-header">Datos Adicionales</h4></div>

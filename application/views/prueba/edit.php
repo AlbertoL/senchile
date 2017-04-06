@@ -1,6 +1,6 @@
 <div class="container cuerpo">
 	<ol class="breadcrumb">
-  		<li><a href="<?php echo base_url()?>prueba">Listado Equipos</a></li>
+  		<li><a href="<?php echo base_url()?>prueba/listado/<?php echo $pagina?>">Listado Equipos</a></li>
   		<li><a href="<?php echo base_url()?>prueba/edit">Editar Equipo</a></li>
 	</ol>
 	<div class="">
