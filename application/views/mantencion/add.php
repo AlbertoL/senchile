@@ -39,8 +39,7 @@
 		<div class="row">
 			<div>
 				<h3 class="page-header"><strong><em>Mediciones Mecánicas</em></strong></h3>
-			</div>
-			
+			</div>	
 		</div>
 		<!-- INICIO MEDICIONES MECÁNICAS -->
 		<div class="row">
@@ -190,178 +189,350 @@
 			</div>
 		</div>
 
-
-
-
 		<!-- FIN MEDICIONES MECÁNICAS -->
-		<!-- INICIO DATOS ADICIONALES -->
+
+		<!-- INICIO INSPECCIÓN -->
 		<div class="row">
-			<div><h4 class="page-header">Datos Adicionales</h4></div>
-			<div class=" col-xs-12 col-sm-4">
-				<div class="form-group">
-	    			<label for="posicion">Posición Caja Conexiones</label>
-	    			<select name="posicion" class="form-control" id="posicion">
-	    				<option value="1">Izquierda</option>
-	    			</select>
-	  			</div>
-	  			<div class="form-group">
-	    			<label for="acoplamiento">Tipo Acoplamiento</label>
-	    			<select name="acoplamiento" class="form-control" id="acoplamiento">
-	    				<option value="1">Machon</option>
-	    			</select>
-	  			</div>
-	  			<div class="form-group">
-	    			<label for="montado">Montado en:</label>
-	    			<select name="montado" class="form-control" id="montado">
-	    				<option value="1">Selecionar</option>
-	    			</select>
-	  			</div>
-	  			
-			</div>
-			<div class="col-xs-12 col-sm-4">
-	  			<div class="form-group">
-	    			<label for="giro">Sentido Giro</label>
-	    			<select name="giro" class="form-control" id="giro">
-	    				<option value="1">Anti-Horario</option>
-	    			</select>
-	  			</div>
-				<div class="form-group">
-	    			<label for="proteccion">Protección Machon</label>
-	    			<select name="proteccion" class="form-control" id="proteccion">
-	    				<option value="1">No</option>
-	    			</select>
-	  			</div>
-	  			
-			</div>
-			<div class="col-sm-4">
-				<div class="form-group">
-	    			<label for="pmotor">Protección Motor</label>
-	    			<select name="pmotor" class="form-control" id="pmotor">
-	    				<option value="1">Si</option>
-	    			</select>
-	  			</div>
-	  			<div class="form-group">
-	    			<label for="carcasa">Cable Tierra Carcasa</label>
-	    			<select name="carcasa" class="form-control" id="carcasa">
-	    				<option value="1">Si</option>
-	    			</select>
-	  			</div>
-			</div>
-			<!-- <div class="clearfix"></div> -->
-			
+			<div>
+				<h3 class="page-header"><strong><em>Inspección</em></strong></h3>
+			</div>	
 		</div>
-		<!-- INICIO DATOS COMPLEMENTARIOS -->
-		<div id="desplegar" class="row collapse">
-			<div><h4 class="page-header">Datos Complementarios</h4></div>
-			<div class="col-sm-4">
+		<div class="row">
+			<div><h4>INSPECCIÓN VISUAL</h4></div>
+			<div class=" col-xs-12 col-sm-2">
 				<div class="form-group">
-    				<label for="prensa">Prensa Cable</label>
-    				<input type="text" name="prensa" id="prensa" class="form-control" placeholder="Prensa Cable">
-  				</div>
-  				<div class="form-group">
-    				<label for="pernos">Pernos Gatos</label>
-    				<input type="text" name="pernos" class="form-control" id="pernos" placeholder="Pernos Gatos">
-  				</div>
-  				<div class="form-group">
-    				<label for="conductor">Tipo Conductor</label>
-    				<input type="text" name="conductor" class="form-control" id="conductor" placeholder="T. Conductor">
-  				</div>
-  				<div class="form-group">
-    				<label for="brida">N° Pernos Brida</label>
-    				<input type="text" name="brida" class="form-control" id="brida" placeholder="N° Brida">
-  				</div>
+	    			<label for="pintura">Pintura</label>
+	    			<select name="pintura" class="form-control" id="pintura">
+	    				<option value="1">N/A</option>
+	    				<option value="1">Bueno</option>
+	    				<option value="1">Regular</option>
+	    				<option value="1">Malo</option>
+	    			</select>
+	  			</div>
+	  			<div class="form-group">
+	    			<label for="cancamo">Cáncamo</label>
+	    			<select name="cancamo" class="form-control" id="cancamo">
+	    				<option value="1">N/A</option>
+	    				<option value="1">Bueno</option>
+	    				<option value="1">Regular</option>
+	    				<option value="1">Malo</option>
+	    			</select>
+	  			</div>
+	  			<div class="form-group">
+	    			<label for="caja_mufa">Caja Mufa</label>
+	    			<select name="caja_mufa" class="form-control" id="caja_mufa">
+	    				<option value="1">N/A</option>
+	    				<option value="1">Bueno</option>
+	    				<option value="1">Regular</option>
+	    				<option value="1">Malo</option>
+	    			</select>
+	  			</div><div class="form-group">
+	    			<label for="placa_conexion">Placa Conexión</label>
+	    			<select name="placa_conexion" class="form-control" id="placa_conexion">
+	    				<option value="1">N/A</option>
+	    				<option value="1">Bueno</option>
+	    				<option value="1">Regular</option>
+	    				<option value="1">Malo</option>
+	    			</select>
+	  			</div>
+	  			
+			</div>
+			<div class="col-xs-12 col-sm-2">
+	  			<div class="form-group">
+	    			<label for="term_bobina">Term. Bobina</label>
+	    			<select name="term_bobina" class="form-control" id="term_bobina">
+	    				<option value="1">N/A</option>
+	    				<option value="1">Bueno</option>
+	    				<option value="1">Regular</option>
+	    				<option value="1">Malo</option>
+	    			</select>
+	  			</div>
+				<div class="form-group">
+	    			<label for="chicotes">Chicote</label>
+	    			<select name="chicotes" class="form-control" id="chicotes">
+	    				<option value="1">N/A</option>
+	    				<option value="1">Bueno</option>
+	    				<option value="1">Regular</option>
+	    				<option value="1">Malo</option>
+	    			</select>
+	  			</div>
+	  			<div class="form-group">
+	    			<label for="tapa_lado_a">Tapa Lado A</label>
+	    			<select name="tapa_lado_a" class="form-control" id="tapa_lado_a">
+	    				<option value="1">N/A</option>
+	    				<option value="1">Bueno</option>
+	    				<option value="1">Regular</option>
+	    				<option value="1">Malo</option>
+	    			</select>
+	  			</div>
+	  			<div class="form-group">
+	    			<label for="tapa_lado_v">Tapa Lado V</label>
+	    			<select name="tapa_lado_v" class="form-control" id="tapa_lado_v">
+	    				<option value="1">N/A</option>
+	    				<option value="1">Bueno</option>
+	    				<option value="1">Regular</option>
+	    				<option value="1">Malo</option>
+	    			</select>
+	  			</div>
+	  			
+			</div>
+			<div class="col-sm-2">
+				<div class="form-group">
+	    			<label for="eje">Eje</label>
+	    			<select name="eje" class="form-control" id="eje">
+	    				<option value="1">N/A</option>
+	    				<option value="1">Bueno</option>
+	    				<option value="1">Regular</option>
+	    				<option value="1">Malo</option>
+	    			</select>
+	  			</div>
+	  			<div class="form-group">
+	    			<label for="chavetero">Chavetero</label>
+	    			<select name="chavetero" class="form-control" id="chavetero">
+	    				<option value="1">N/A</option>
+	    				<option value="1">Bueno</option>
+	    				<option value="1">Regular</option>
+	    				<option value="1">Malo</option>
+	    			</select>
+	  			</div><div class="form-group">
+	    			<label for="ventilados">Ventilados</label>
+	    			<select name="ventilados" class="form-control" id="ventilados">
+	    				<option value="1">N/A</option>
+	    				<option value="1">Bueno</option>
+	    				<option value="1">Regular</option>
+	    				<option value="1">Malo</option>
+	    			</select>
+	  			</div>
+	  			<div class="form-group">
+	    			<label for="tapa_vent">Pernos Tapa Vent.</label>
+	    			<select name="tapa_vent" class="form-control" id="tapa_vent">
+	    				<option value="1">N/A</option>
+	    				<option value="1">Bueno</option>
+	    				<option value="1">Regular</option>
+	    				<option value="1">Malo</option>
+	    			</select>
+	  			</div>
+			</div>
+			<div class="col-sm-2">
+				<div class="form-group">
+	    			<label for="eje">Pernos Tapa Mufa</label>
+	    			<select name="eje" class="form-control" id="eje">
+	    				<option value="1">N/A</option>
+	    				<option value="1">Bueno</option>
+	    				<option value="1">Regular</option>
+	    				<option value="1">Malo</option>
+	    			</select>
+	  			</div>
+	  			<div class="form-group">
+	    			<label for="chavetero">Pernos Tapa Motor</label>
+	    			<select name="chavetero" class="form-control" id="chavetero">
+	    				<option value="1">N/A</option>
+	    				<option value="1">Bueno</option>
+	    				<option value="1">Regular</option>
+	    				<option value="1">Malo</option>
+	    			</select>
+	  			</div><div class="form-group">
+	    			<label for="ventilados">Grasera</label>
+	    			<select name="ventilados" class="form-control" id="ventilados">
+	    				<option value="1">N/A</option>
+	    				<option value="1">Bueno</option>
+	    				<option value="1">Regular</option>
+	    				<option value="1">Malo</option>
+	    			</select>
+	  			</div>
+	  			<div class="form-group">
+	    			<label for="tapa_vent">Carcaza</label>
+	    			<select name="tapa_vent" class="form-control" id="tapa_vent">
+	    				<option value="1">N/A</option>
+	    				<option value="1">Bueno</option>
+	    				<option value="1">Regular</option>
+	    				<option value="1">Malo</option>
+	    			</select>
+	  			</div>
+			</div>
+			<div class="col-sm-2">
+				<div class="form-group">
+	    			<label for="eje">Placa datos</label>
+	    			<select name="eje" class="form-control" id="eje">
+	    				<option value="1">N/A</option>
+	    				<option value="1">Bueno</option>
+	    				<option value="1">Regular</option>
+	    				<option value="1">Malo</option>
+	    			</select>
+	  			</div>
+	  			<div class="form-group">
+	    			<label for="chavetero">Patas Anclaje</label>
+	    			<select name="chavetero" class="form-control" id="chavetero">
+	    				<option value="1">N/A</option>
+	    				<option value="1">Bueno</option>
+	    				<option value="1">Regular</option>
+	    				<option value="1">Malo</option>
+	    			</select>
+	  			</div><div class="form-group">
+	    			<label for="ventilados">Tapa Vent</label>
+	    			<select name="ventilados" class="form-control" id="ventilados">
+	    				<option value="1">N/A</option>
+	    				<option value="1">Bueno</option>
+	    				<option value="1">Regular</option>
+	    				<option value="1">Malo</option>
+	    			</select>
+	  			</div>
+	  			<div class="form-group">
+	    			<label for="tapa_vent">N° De Ranuras</label>
+	    			<input type="text" class="form-control" id="n_ranuras" placeholder="0">
+	  			</div>
+			</div>
+			<div class="col-sm-2">
+	  			<div class="form-group">
+	    			<label for="n_barras">N° Barras Jaula</label>
+	    			<input type="text" class="form-control" id="n_barras" placeholder="0">
+	  			</div>
+	  			<div class="form-group">
+	    			<label for="n_aspas_ventilador">N° Aspas Ventilador</label>
+	    			<input type="text" class="form-control" id="n_aspas_ventilador" placeholder="0">
+	  			</div>
+	  			<div class="form-group">
+	    			<label for="n_aspas_rotor">N° Aspas Rotor</label>
+	    			<input type="text" class="form-control" id="n_aspas_rotor" placeholder="0">
+	  			</div>
 
 			</div>
-			<div class="col-sm-4">
-				<div class="form-group">
-    				<label for="anclaje">Medida Perno Anclaje</label>
-    				<input type="text" name="anclaje" id="anclaje" class="form-control" placeholder="M. Perno Anclaje">
-  				</div>
-  				<div class="form-group">
-    				<label for="pterreno">Posición en Terreno</label>
-    				<input type="text" name="pterreno" class="form-control" id="pterreno" placeholder="P. en Terreno">
-  				</div>
-  				<div class="form-group">
-    				<label for="ncorreas">N° de Correas</label>
-    				<input type="text" name="ncorreas" class="form-control" id="ncorreas" placeholder="N° de Correas">
-  				</div>
-  				<div class="form-group">
-    				<label for="tagterreno">TAG en Terreno</label>
-    				<input type="text" name="tagterreno" class="form-control" id="tagterreno" placeholder="TAG en Terreno">
-  				</div>
+
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="form-group">
+		    			<label for="job_execute">Trabajos a Ejecutar</label>
+		    			<textarea class="form-control" rows="4"></textarea>
+		  			</div>	
+				</div>
+				<div class="col-sm-6">
+					<div class="form-group">
+		    			<label for="causa_falla">Causa Básica de Falla</label>
+		    			<textarea class="form-control" rows="4"></textarea>
+		  			</div>	
+				</div>
+
 			</div>
-			<div class="col-sm-4">
-				<div class="form-group">
-    				<label for="mbrida">Medida Pernos Brida</label>
-    				<input type="text" name="mbrida" id="mbrida" class="form-control" placeholder="M. Pernos Brida">
-  				</div>
-  				<div class="form-group">
-    				<label for="pgato">Medida Pernos Gato</label>
-    				<input type="text" name="pgato" class="form-control" id="pgato" placeholder="M. Pernos Gato">
-  				</div>
-  				<div class="form-group">
-    				<label for="acoplamiento">Forma de Acoplamiento</label>
-    				<input type="text" name="acoplamiento" class="form-control" id="acoplamiento" placeholder="Forma de Acoplamiento">
-  				</div>
-  				<div class="form-group">
-    				<label for="tagterreno">Tipo de Correas</label>
-    				<input type="text" name="tagterreno" class="form-control" id="tagterreno" placeholder="T. Correas">
-  				</div>
-			</div>
-			<div class="col-sm-12">
-				<div class="form-group">
-					<label for="obs">Observaciones:</label>
-					<textarea name="obs" class="form-control" id="obs" rows="6"></textarea>
+		</div>
+		<!-- FIN INSPECCIÓN -->
+
+		<!-- INICIO RESISTENCIA AISLACION -->
+
+		<div class="row">
+			<div>
+				<h3 class="page-header"><strong><em>Medición Resistencia Aislación</em></strong></h3>
+			</div>	
+		</div>
+
+		<div class="row">
+			<div class="col-sm-6">
+				<div class="table-responsive">
+					<table class="table">
+						<thead>
+							<tr>
+								<th></th>
+								<th>AISLACIÓN</th>
+								<th>R. AISLACION</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th>#</th>
+								<th>1</th>
+								<th>2</th>
+							</tr>
+							<tr>
+								<td><strong>U-M</strong></td>
+								<td>2000 MR</td>
+								<td>U-V = 2000</td>
+							</tr>
+							<tr>
+								<td><strong>V-M</strong></td>
+								<td>2000 MR</td>
+								<td>U-V = 2000</td>
+							</tr>
+							<tr>
+								<td><strong>W-M</strong></td>
+								<td>2000 MR</td>
+								<td>U-V = 2000</td>
+							</tr>
+
+						</tbody>
+					</table>	
 				</div>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-12">
-			<button type="button" id="btn-down-three" class="btn btn-warning btn-xs" role="button" data-toggle="collapse" data-target="#desplegar" aria-expanded="false" aria-controls="desplegar">
-					<span id="icon-down-three" class="glyphicon glyphicon-chevron-down"></span>
-				</button>
+
+			<div class="col-sm-6">
+				<div class="table-responsive">
+					<table class="table">
+						<thead>
+							<tr>
+								<th colspan="3">RESISTENCIA DE DEVANADOS</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th>U-V</th>
+								<th>U-W</th>
+								<th>V-W</th>
+							</tr>
+							<tr>
+								<td>-</td>
+								<td>-</td>
+								<td>-</td>
+							</tr>
+							<tr>
+								<th>U1-U2</th>
+								<th>V1-V2</th>
+								<th>W1-W2</th>
+							</tr>
+							<tr>
+								<td>3,5</td>
+								<td>3,5</td>
+								<td>3,5</td>
+							</tr>
+
+						</tbody>
+					</table>	
+				</div>	
 			</div>
 		</div>
 		<div class="row">
-			<div><h4 class="page-header">Seleccione una Imagen</h4></div>
 			<div class="col-sm-4">
+				<h4><strong>Arandelas</strong></h4>
 				<div class="form-group">
-					<label for="archivo1">Imagen</label>
-					<input type="file" class="archivo" id="archivo1">
-					<p class="help-block">Archivo máximo 2 MB</p>
-		 		</div>
-			</div>
-			<div id="marchivo" class="col-sm-8 collapse">
-				<div class="row">
-					<div class="col-sm-6">
-						<div class="form-group">
-							<label for="archivo2">Imagen</label>
-							<input type="file" class="archivo" id="archivo2">
-							<p class="help-block">Archivo máximo 2 MB</p>
-		 				</div>
-					</div>
-					<div class="col-sm-6">
-						<div class="form-group">
-							<label for="archivo3">Imagen</label>
-							<input type="file" class="archivo" id="archivo3">
-							<p class="help-block">Archivo máximo 2 MB</p>
-		 				</div>
-					</div>
+					<label>LA</label>
+					<input type="text" class="form-control" id="arandelas_la">
 				</div>
+				<div class="form-group">
+					<label>LV</label>
+					<input type="text" class="form-control" id="arandelas_lv">
+				</div>	
+			</div>
+			<div class="col-sm-4">
+				<h4><strong>Seguros</strong></h4>
+				<div class="form-group">
+					<label>LA</label>
+					<input type="text" class="form-control" id="seguros_la">
+				</div>
+				<div class="form-group">
+					<label>LV</label>
+					<input type="text" class="form-control" id="seguros_lv">
+				</div>	
+			</div>
+			<div class="col-sm-4">
+				<h4><strong>Chavetas</strong></h4>
+				<div class="form-group">
+					<label>LA</label>
+					<input type="text" class="form-control" id="chavetas_la">
+				</div>
+				<div class="form-group">
+					<label>LV</label>
+					<input type="text" class="form-control" id="chavetas_lv">
+				</div>	
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-sm-12">
-			<button type="button" id="btn-down-four" class="btn btn-warning btn-xs" role="button" data-toggle="collapse" data-target="#marchivo" aria-expanded="false" aria-controls="marchivo">
-					<span id="icon-down-four" class="glyphicon glyphicon-chevron-down"></span>
-				</button>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-xs-3 pad">
-				<input type="submit" class="btn btn-primary btn-lg" value="Registrar">
-			</div>
-		</div>
+		<!-- FIN RESISTENCIA AISLACIÓN -->
 			
 	</form>
 </div>
