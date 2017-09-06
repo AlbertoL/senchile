@@ -1,13 +1,13 @@
 <div class="container cuerpo">
-	<div class="">
-		<h2 class="text-center"><span class="glyphicon glyphicon-wrench" aria-hidden="true"> </span><strong> Peritaje De Motores</strong></h2>
-	</div>
+	
 	<form action="#">
 			<!--Inicio REGISTRO  MOTORES -->
-		<div class="row">
+		<div class="row seccion">
 			<div class="col-xs-12" data-example-id="button-group-nesting">
 				<div class="row">
-					<div><h3 class="page-header"><strong><em>Registro Motores</em></strong></h3></div>
+					<div>
+						<h4 class="title_one">Registro Motores</h4>
+					</div>
 					<div class="form-group col-sm-3">
 	    				<label for="idmail">OT</label>
 	    				<input type="text" class="form-control" id="idmail" placeholder="Orden de Trabajo">
@@ -42,10 +42,10 @@
 			</div>	
 		</div>
 		<!-- INICIO MEDICIONES MECÁNICAS -->
-		<div class="row">
-				<h4>LADO A</h4>
+		<div class="row seccion">
+				<h4 class="title_two">LADO A</h4>
 			<div class="col-sm-6 table-responsive">
-				<h4>MEDICIONES CAJA</h4>
+				<h5>MEDICIONES CAJA</h5>
 				<table class="table table-bordered">
 					<thead>
 						<tr>
@@ -80,7 +80,7 @@
 				
 			</div>
 			<div class="col-sm-6 table-responsive">
-				<h4>MEDICIONES EJE</h4>
+				<h5>MEDICIONES EJE</h5>
 				<table class="table table-bordered">
 					<thead>
 						<tr>
@@ -115,10 +115,10 @@
 				
 			</div>
 		</div>
-		<div class="row">
-				<h4>LADO V</h4>
+		<div class="row seccion">
+				<h4 class="title_three">LADO V</h4>
 			<div class="col-sm-6 table-responsive">
-				<h4>MEDICIONES CAJA</h4>
+				<h5>MEDICIONES CAJA</h5>
 				<table class="table table-bordered">
 					<thead>
 						<tr>
@@ -153,7 +153,7 @@
 				
 			</div>
 			<div class="col-sm-6 table-responsive">
-				<h4>MEDICIONES EJE</h4>
+				<h5>MEDICIONES EJE</h5>
 				<table class="table table-bordered">
 					<thead>
 						<tr>
@@ -197,8 +197,8 @@
 				<h3 class="page-header"><strong><em>Inspección</em></strong></h3>
 			</div>	
 		</div>
-		<div class="row">
-			<div><h4>INSPECCIÓN VISUAL</h4></div>
+		<div class="row seccion">
+			<h4 class="title_four">INSPECCIÓN VISUAL</h4>
 			<div class=" col-xs-12 col-sm-2">
 				<div class="form-group">
 	    			<label for="pintura">Pintura</label>
@@ -424,7 +424,7 @@
 			</div>	
 		</div>
 
-		<div class="row">
+		<div class="row seccion">
 			<div class="col-sm-6">
 				<div class="table-responsive">
 					<table class="table">
@@ -497,9 +497,9 @@
 				</div>	
 			</div>
 		</div>
-		<div class="row">
+		<div class="row seccion">
 			<div class="col-sm-4">
-				<h4><strong>Arandelas</strong></h4>
+				<h5><strong>Arandelas</strong></h5>
 				<div class="form-group">
 					<label>LA</label>
 					<input type="text" class="form-control" id="arandelas_la">
@@ -510,7 +510,7 @@
 				</div>	
 			</div>
 			<div class="col-sm-4">
-				<h4><strong>Seguros</strong></h4>
+				<h5><strong>Seguros</strong></h5>
 				<div class="form-group">
 					<label>LA</label>
 					<input type="text" class="form-control" id="seguros_la">
@@ -521,7 +521,7 @@
 				</div>	
 			</div>
 			<div class="col-sm-4">
-				<h4><strong>Chavetas</strong></h4>
+				<h5><strong>Chavetas</strong></h5>
 				<div class="form-group">
 					<label>LA</label>
 					<input type="text" class="form-control" id="chavetas_la">

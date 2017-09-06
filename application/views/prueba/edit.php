@@ -1,4 +1,4 @@
-<div class="container cuerpo">
+<div class="container fondo">
 	<ol class="breadcrumb">
   		<li><a href="<?php echo base_url()?>prueba/listado/<?php echo $pagina?>">Listado Equipos</a></li>
   		<li><a href="<?php echo base_url()?>prueba/edit">Editar Equipo</a></li>
@@ -9,7 +9,7 @@
 			<!--Inicio Formulario DATOS EQUIPO -->
 		<div class="row">
 			<div class="col-xs-12">
-				<div><h4 class="page-header">Datos Equipo</h4></div>
+				<div><h3 class="page-header">Datos Equipo</h3></div>
 				<?php
 					$errors = validation_errors('<li>','</li>');
 					if ($errors!= "") {

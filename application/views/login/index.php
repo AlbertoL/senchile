@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container bg-login">
 	<div class="container row">
 		<div class="col-xs-12 col-sm-6 col-md-4 col-sm-offset-3 col-md-offset-4 login-contenedor">
 			<div class="img-login">
